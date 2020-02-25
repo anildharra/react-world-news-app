@@ -1,0 +1,143 @@
+body {
+	background:#fff;
+}
+
+a.border.nav-link.border-light.rounded.mr-1 {
+  color: #3F729B;
+}
+
+a.border.nav-link.border-light.rounded.mr-1:hover {
+  color: #1C2331;
+}
+
+.btn.btn-sm.indigo:hover{
+  color: #fff;
+}
+
+.nav-link.active{
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+#categories > .col-md-4.mb-5{
+  margin-bottom: 8rem !important;
+}
+@media (min-width: 768px)
+{  
+  .container .row .col-md-12 mt-4 row {
+        flex: 0 0 100%!important;
+        max-width: 100%!important;
+    }
+
+    .container .row .col-md-12 mt-4 col-md-4 {
+      flex: 0 0 100%!important;
+      max-width: 100%!important;
+  }
+}
+
+
+@media (min-width: 2024px)
+{  
+  .container .row .col-md-12 mt-4 row {
+        flex: 0 0 80%!important;
+        max-width: 80%!important;
+    }
+
+    .container .row .col-md-12 mt-4 col-md-4 {
+      flex: 0 0 80%!important;
+        max-width: 80%!important;
+  }
+}
+
+@media (min-width: 768px)
+{  
+      .col-md-4 {
+          flex: 0 0 100%!important;
+          max-width: 100%!important;
+      }
+}
+
+.input-group {
+  width: 50%!important;
+}
+
+.sectionPage {
+  position: relative;
+  top: -15px;
+  margin-bottom: -125px;
+}
+
+.sectionPage::after {
+  content: '';
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background: url("../assets/world-news-logo.png");
+  background-position: center center;
+  
+  filter: opacity(0.7);
+}
+
+
+#header-container {
+  position: fixed;
+  z-index: 999999;
+    width: 100%;
+}
+
+#header-container > div {
+  width:100%;
+}
+.p-3 {
+  padding: 0rem!important;
+}
+
+.mb-5, .my-5 {
+  margin-bottom: 0rem!important;
+}
+
+.card-body {
+  padding: 0rem;
+}
+
+.main-nav-bar   {
+  background: #3a7bd5;  /* fallback for old browsers */
+  padding-left:80px;
+  padding-right:10px;
+  background: -webkit-linear-gradient(to right, #4caf50, rgba(5, 109, 5, 0.5));  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right,#4caf50, rgb(5, 109, 5)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: right;
+}
+.main-nav-bar .btn  {
+  margin: 0.02rem
+}
+
+.main-nav-bar .header-text-color {
+  font-size: 18px;
+  color:#fff;
+
+}
+
+@media (max-width: 500px)
+{  
+  .main-nav-bar .btn {
+    margin: 0.02rem;
+    padding-top: 0.1rem;
+    padding-right: 0.3rem;
+    padding-bottom: 0.1rem;
+    padding-left: 0.3rem;
+  }
+  .main-nav-bar .header-text-color {
+    font-size: 14px;
+  }
+}
+.navbar {
+  padding: 0.0rem!important;
+}
+
+.navbar-brand {
+  margin-right: 16rem!important;
+}
+
+.modal-dialog .input-group {
+  width: 100%!important;
+}
