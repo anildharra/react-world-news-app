@@ -76,7 +76,7 @@ class SearchOutPut extends React.Component {
   })  
    
   //console.log("SearchOutput.js :- componentDidMount() this.countryName ="+this.countryName +", this.categoryName = " + this.categoryName );
-  config.GOOGLE_API_URL = `http://newsapi.org/v2/top-headlines?country=${countryCode}&category=${category}&apiKey=`;
+  config.GOOGLE_API_URL = `//newsapi.org/v2/top-headlines?country=${countryCode}&category=${category}&apiKey=`;
     console.log("componentDidMount() config.GOOGLE_API_URL ="+ config.GOOGLE_API_URL);
     this.getApiData();
   }
@@ -96,7 +96,7 @@ class SearchOutPut extends React.Component {
      
   const countryCode = values.countryCode;
   const category = values.category;
-  config.GOOGLE_API_URL = `http://newsapi.org/v2/top-headlines?country=${countryCode}&category=${category}&apiKey=`;
+  config.GOOGLE_API_URL = `//newsapi.org/v2/top-headlines?country=${countryCode}&category=${category}&apiKey=`;
     console.log("componentWillReceiveProps() $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$");
     this.getApiData();
     }
